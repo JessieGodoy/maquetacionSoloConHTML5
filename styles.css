@@ -1,3 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: rgba(140, 29, 29, 0.85);
+    --color: white;
+    --border: 20px;
+    --display: inline-block;
+    --padding: .75em 2em;
+    --border-raidus: .25em
+}
+
+.button {
+    background: var(--bg);
+    color: var(--color);
+    border: var(--border);
+    display: var(--display);
+    padding: var(--padding);
+    border-radius: var(--border-raidus) ;
+}
+
 table {
     border: 1px;
 }
